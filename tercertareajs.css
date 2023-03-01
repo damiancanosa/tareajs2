@@ -1,0 +1,36 @@
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+#caja1{
+    width: 120px;
+    height: 120px;
+    border: solid black 2px;
+    background-color: greenyellow;
+}
+
+#caja2{
+    width: 120px;
+    height: 120px;
+    border: solid black 2px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: red;
+}
+
+#caja3{
+    width: 120px;
+    height: 120px;
+    border: solid black 2px;
+    background-color: pink;
+    
+}
+
+textarea{
+    display: flex;
+    
+}

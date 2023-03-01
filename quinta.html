@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="tercertareajs.css">
+</head>
+<body>
+    <label for="titulo">contador de caracteres</label>
+    <textarea name="contador" id="contador" onpaste="contador();" onkeyup="contador();"></textarea>
+    <div id="resultado"></div>
+    <script>
+
+        function contador ()
+        {
+            setTimeout(function(){
+
+                var valor=document.getElementById('contador')
+                var respuesta= document.getElementById('resultado')
+                var cantidad= valor.value.length
+                document.getElementById('resultado').innerHTML= cantidad + ' caracteres';
+            })
+        }
+        
+    </script>
+    
+</body>
+</html>
